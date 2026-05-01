@@ -1,0 +1,57 @@
+.applications-section {
+  background-color: var(--color-bg-white);
+}
+
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.application-card {
+  background-color: var(--color-bg-light);
+  padding: 2.5rem 2rem;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-subtle);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.application-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--color-primary-green);
+}
+
+.application-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(39, 90, 43, 0.1);
+  color: var(--color-primary-green);
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  transition: var(--transition-smooth);
+}
+
+.application-card:hover .application-icon {
+  background-color: var(--color-primary-green);
+  color: var(--color-bg-white);
+}
+
+.application-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 1rem;
+}
+
+.application-desc {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

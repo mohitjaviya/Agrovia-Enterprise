@@ -1,0 +1,140 @@
+.about-section {
+  background-color: var(--color-bg-white);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.title-underline {
+  width: 80px;
+  height: 4px;
+  background-color: var(--color-accent-orange);
+  margin-bottom: 2rem;
+  border-radius: 2px;
+}
+
+.about-description {
+  color: var(--color-text-muted);
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.about-list {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.about-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: var(--color-text-dark);
+  font-weight: 500;
+}
+
+.check-icon {
+  color: var(--color-primary-green);
+  flex-shrink: 0;
+}
+
+.about-visuals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  height: 480px;
+}
+
+.visual-card {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--shadow-hover);
+  transition: var(--transition-smooth);
+  height: 100%;
+}
+
+.visual-card:hover {
+  transform: translateY(-5px);
+}
+
+.visual-card-1 {
+  /* real photo loaded via inline style */
+}
+
+.visual-card-2 {
+  /* uniform — no stagger */
+}
+
+.visual-card-3 {
+  /* uniform — no stagger */
+}
+
+.visual-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.3) 60%, transparent 100%);
+}
+
+.vc-tag {
+  display: inline-block;
+  background: rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.9);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  margin-bottom: 0.4rem;
+}
+
+.visual-overlay h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0.2rem;
+}
+
+.visual-overlay p {
+  color: rgba(255,255,255,0.75);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-visuals {
+    height: 400px;
+  }
+  .visual-card-2 {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-visuals {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .visual-card {
+    height: 250px;
+  }
+  .visual-card-2 {
+    margin-top: 0;
+  }
+}
