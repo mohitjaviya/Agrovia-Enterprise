@@ -12,7 +12,7 @@ const Footer = () => {
               <span>Agrovia Enterprise</span>
             </div>
             <p className="footer-desc">
-              Global leaders in the export of premium dehydrated onion, garlic, authentic spices, and pure natural honey. Delivering quality from farm to table.
+              Global leaders in the export of premium dehydrated onion, garlic, authentic spices, and pure wild forest honey. Delivering quality from farm to table.
             </p>
           </div>
 

@@ -16,7 +16,7 @@ const About = () => {
             <div className="title-underline"></div>
             
             <p className="about-description">
-              Agrovia Enterprise is a premier global exporter specializing in top-tier dehydrated onion, garlic, authentic spices, and pure natural honey. Founded with a vision to connect local farms with international markets, we ensure that every flake, granule, powder, and jar of honey retains its natural essence.
+              Agrovia Enterprise is a premier global exporter specializing in top-tier dehydrated onion, garlic, authentic spices, and pure wild forest honey. Founded with a vision to connect local farms with international markets, we ensure that every flake, granule, powder, and jar of honey retains its natural essence.
             </p>
             
             <p className="about-description">
@@ -63,7 +63,7 @@ const About = () => {
             <div className="visual-card visual-card-3"
               style={{ backgroundImage: `url(${honeyImg})` }}>
               <div className="visual-overlay">
-                <span className="vc-tag">Natural Honey</span>
+                <span className="vc-tag">Wild Forest Honey</span>
                 <h3>Pure Raw Honey</h3>
                 <p>No additives · Golden amber</p>
               </div>

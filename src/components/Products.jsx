@@ -26,7 +26,7 @@ import turmericPowder   from '../assets/turmeric_powder.png';
 import redChilliPowder  from '../assets/red_chilli_powder.png';
 
 import naturalHoney    from '../assets/natural_honey.png';
-import jeeraHoney      from '../assets/jeera_honey.png';
+import jeeraHoney      from '../assets/jeera_honey.png'; // Will reuse image var name but it's Raw Ajwain Honey
 import dryFruitsHoney  from '../assets/dry_fruits_honey.png';
 
 // ── Data ─────────────────────────────────────────────────────────────────────
@@ -351,12 +351,12 @@ const spiceProducts = [
 const honeyProducts = [
   {
     id: 'natural-honey',
-    name: 'Natural Honey',
+    name: 'Wild Forest Honey',
     image: naturalHoney,
     badge: 'Pure & Raw',
-    shortDesc: 'Pure raw natural honey — rich in antioxidants with no added sugar or preservatives.',
+    shortDesc: 'Pure raw wild forest honey — rich in antioxidants with no added sugar or preservatives.',
     details: {
-      overview: 'Agrovia\'s Natural Honey is sourced directly from trusted beekeepers and is minimally processed to retain natural enzymes, antioxidants, and nutrients. No artificial additives — pure nature in a jar.',
+      overview: 'Agrovia\'s Wild Forest Honey is sourced directly from trusted beekeepers and is minimally processed to retain natural enzymes, antioxidants, and nutrients. No artificial additives — pure nature in a jar.',
       specs: [
         { label: 'Type', value: 'Pure Raw Honey' },
         { label: 'Moisture', value: '≤ 17%' },
@@ -370,17 +370,17 @@ const honeyProducts = [
   },
   {
     id: 'jeera-honey',
-    name: 'Jeera Honey',
+    name: 'Raw Ajwain Honey',
     image: jeeraHoney,
     badge: 'Digestive Aid',
-    shortDesc: 'Pure honey infused with roasted cumin — aids digestion with a warm, earthy sweetness.',
+    shortDesc: 'Pure honey infused with raw ajwain — aids digestion with a warm, earthy sweetness.',
     details: {
-      overview: 'Jeera Honey blends the natural goodness of pure honey with the digestive benefits of roasted cumin seeds. A unique health product gaining popularity in wellness and nutraceutical markets worldwide.',
+      overview: 'Raw Ajwain Honey blends the natural goodness of pure honey with the digestive benefits of raw ajwain (carom seeds). A unique health product gaining popularity in wellness and nutraceutical markets worldwide.',
       specs: [
         { label: 'Type', value: 'Infused Honey' },
         { label: 'Moisture', value: '≤ 17%' },
         { label: 'Colour', value: 'Warm Amber with Seeds' },
-        { label: 'Jeera Content', value: '5–8% Cumin Seeds' },
+        { label: 'Infusion', value: 'Ajwain (Carom) Extract' },
         { label: 'Shelf Life', value: '18 months' },
         { label: 'Packaging', value: '250g / 500g / 1kg' },
       ],
@@ -394,7 +394,7 @@ const honeyProducts = [
     badge: 'Nutrition Rich',
     shortDesc: 'Premium honey enriched with almonds, cashews & raisins — a powerhouse of nutrition.',
     details: {
-      overview: 'A luxurious blend of pure natural honey with a handpicked selection of premium dry fruits including almonds, cashews, and raisins. Perfect for gifting, wellness, and premium food retail.',
+      overview: 'A luxurious blend of pure wild forest honey with a handpicked selection of premium dry fruits including almonds, cashews, and raisins. Perfect for gifting, wellness, and premium food retail.',
       specs: [
         { label: 'Type', value: 'Enriched Honey' },
         { label: 'Moisture', value: '≤ 17%' },
