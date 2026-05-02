@@ -29,7 +29,7 @@ const Navbar = () => {
           <a href="#applications" className="nav-link">Applications</a>
           <a href="#quality" className="nav-link">Quality</a>
           <a href="#blogs" className="nav-link">Blogs</a>
-          <a href="/brochure.pdf" download="Agrovia-Enterprise-Brochure" className="nav-link">Brochure</a>
+          <a href="/brochure.pdf" download="Agrovia Enterprise Brochure.pdf" className="nav-link">Brochure</a>
           <a href="#contact" className="btn btn-primary nav-cta">Enquire Now</a>
         </div>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
         <a href="#applications" className="mobile-nav-link" onClick={() => setMobileMenuOpen(false)}>Applications</a>
         <a href="#quality" className="mobile-nav-link" onClick={() => setMobileMenuOpen(false)}>Quality</a>
         <a href="#blogs" className="mobile-nav-link" onClick={() => setMobileMenuOpen(false)}>Blogs</a>
-        <a href="/brochure.pdf" download="Agrovia-Enterprise-Brochure" className="mobile-nav-link" onClick={() => setMobileMenuOpen(false)}>Brochure</a>
+        <a href="/brochure.pdf" download="Agrovia Enterprise Brochure.pdf" className="mobile-nav-link" onClick={() => setMobileMenuOpen(false)}>Brochure</a>
         <a href="#contact" className="btn btn-primary mobile-nav-cta" onClick={() => setMobileMenuOpen(false)}>Enquire Now</a>
       </div>
     </nav>

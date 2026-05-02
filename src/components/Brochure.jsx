@@ -12,7 +12,7 @@ const Brochure = () => {
             <p className="brochure-desc">
               Get a comprehensive overview of our premium product range, quality certifications, and detailed specifications. Perfect for B2B partners and bulk buyers.
             </p>
-            <a href="/brochure.pdf" download="Agrovia-Enterprise-Brochure" className="btn btn-primary btn-large brochure-btn">
+            <a href="/brochure.pdf" download="Agrovia Enterprise Brochure.pdf" className="btn btn-primary btn-large brochure-btn">
               <Download size={20} /> Download PDF Brochure
             </a>
           </div>
